@@ -1,0 +1,97 @@
+html{
+    background-color: lightsteelblue;
+}
+
+body{
+    font-family: "Smooch Sans", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+img{
+    border-style:ridge;
+    border-color: black;
+}
+
+#uhd-blu-ray-picture{
+    width: 460px;
+    margin-left: 32em;
+}
+
+#got-picture{
+    width: 500px;
+    float: right;
+    margin-top: 2em;
+}
+
+#jl-picture{
+    width: 250px;
+    float: right;
+    margin-top: 2em;
+}
+
+#uhd-blu-ray-caption{
+    font-weight:900;
+    text-align: center;
+}
+
+h1{
+    color: rgb(185, 159, 12);
+    text-align: center;
+}
+
+h2{
+    color: #b3735d;
+    text-align: center;
+}
+
+h3{
+    color: rgb(74, 109, 22);
+    text-align: left;
+}
+
+#uhd-blu-ray-description{
+    text-align: center;
+}
+
+#description-table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(155, 247, 216);
+}
+
+ul{
+    list-style-type: circle;
+}
+
+#got-list{
+    margin-bottom: 15em;
+}
+#jl-list{
+    margin-bottom: -5em;
+}
+
+#got-dollar-sign, #got-price, #jl-dollar-sign, #jl-price{
+    text-decoration: line-through;
+}
+
+p[id="copyright"]{
+    margin-top: 25em;
+    color: #4b3b02;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:link{
+    color: darkred;
+}
+
+a:visited{
+    color: rgb(199, 111, 5);
+}
+
+a:hover, a:focus{
+    color: #062911fd;
+}
